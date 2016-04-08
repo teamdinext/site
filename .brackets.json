@@ -1,0 +1,5 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/run/user/1000/gvfs/smb-share:server=10.1.19.68,share=is410/appBackup/DnD/platforms/android/assets/www/lib/ionic/js/angular-ui/angular-ui-router.js"
+    ]
+}

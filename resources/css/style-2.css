@@ -1,0 +1,402 @@
+/* Larger than mobile */
+
+@media (min-width: 400px) {
+    * {
+        color: #ffffff;
+        font-size: 1em;
+    }
+    body {
+        font-family: 'Alegreya Sans', sans-serif;
+        background: transparent url("../images/bg-header.jpg");
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-color: #000000;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.6rem;
+    }
+    h3 {
+        font-size: 2.2rem;
+    }
+    hr {
+        width: 80%;
+    }
+    .columns.tall,
+    .column.tall {
+        min-height: 400px;
+        height: 100%;
+    }
+    ul.nav {
+        list-style-type: none;
+    }
+    ul.nav li a {
+        text-decoration: none;
+        font-weight: 100;
+    }
+    ul li.nav.logo {
+        display: none;
+    }
+    .logo-sm {
+        display: block;
+    }
+    div.content {
+        margin-top: 1em;
+    }
+    div.row.header {
+        padding: 20px;
+        text-align: center;
+    }
+    label {
+        display: inline;
+    }
+    label.points {
+        float: left;
+    }
+    label.full-sm {
+        width: 100%;
+    }
+    input,
+    input * {
+        color: #000000;
+    }
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        float: right;
+    }
+    input[type="text"][class^=inline],
+    input[type="password"][class^=inline] {
+        margin: 0 0.3em;
+    }
+    input[type="text"].numeric,
+    input[type="password"].inline {
+        max-width: 6em;
+        width: auto;
+    }
+    input[type="submit"],
+    input[type="button"] {
+        width: 100%;
+        color: #888;
+        margin: 0.5em auto;
+        font-size: 1em;
+        font-weight: 100;
+        display: block;
+        font-family: sans, sans-serif;
+        background-color: transparent;
+        border-radius: 8px;
+        border: 1px solid #a51f15;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    input[type="submit"].button-lg,
+    input[type="button"].button-lg {
+        height: 2.6em;
+        padding: 0.5em;
+        font-size: 1.5em;
+    }
+    input[type="submit"]:hover,
+    input[type="button"]:hover {
+        background-color: #a51f15;
+        border: 1px solid #a51f15;
+        color: #ffffff;
+    }
+    input[type="submit"].faded,
+    input[type="button"].faded {
+        border-color: #ddd;
+    }
+    input[type="button"][class^=inline],
+    input[type="submit"][class^=inline] {
+        min-height: 0.5em;
+        height: 38px;
+        font-weight: 300;
+        border-radius: 5px;
+        margin: 0 0.3em;
+        padding: 0 0.5em;
+        float: right;
+    }
+    input.inline {
+        float: none;
+        margin: 15px;
+        height: 1.5em;
+        padding: 4px;
+    }
+    input.inline-sm {
+        width: 50%;
+        float: left;
+    }
+    input.inline-md {
+        width: 100%;
+    }
+    input.inline-lg {
+        width: 100%;
+    }
+    input.class-button {
+        margin: 0.5em auto;
+    }
+    div.input-line .toggle-registration {
+        color: cornflowerblue;
+        font-weight: 600;
+    }
+    div.input-line .toggle-registration:hover {
+        cursor: pointer;
+        color: #aaaaff;
+    }
+    div.footer.row {} div.footer.row span {
+        text-align: center;
+        margin: 0 0 65px 0;
+        font-family: "Trebuchet MS";
+        color: #ffffff;
+        display: block;
+        font-size: 10px;
+    }
+    div.row input:disabled {
+        background: darkgray;
+    }
+    div.footer.row span a {
+        font-size: 7.5pt;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    div.center-column {
+        float: none;
+        margin: auto;
+    }
+    div.center-column:parent div {
+        margin: auto;
+    }
+    table.class-table {
+        width: 300px;
+        margin: 3px auto;
+        border-radius: 4px;
+    }
+    .class-table tr {
+        margin: 0;
+        padding: 0;
+    }
+    .class-table td {
+        min-width: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .class-table .group-name {
+        width: 12em;
+    }
+    .class-table .group-students {
+        width: 4em;
+    }
+    div.about ul {
+        list-style-type: none;
+    }
+    input[type="submit"],
+    input[type="button"] {
+        color: #ddd;
+        border-width: 0.1em;
+        font-size: 1.4em;
+        font-weight: 600;
+        margin 0.2em auto;
+        min-height: 1.6em;
+    }
+    input[type="text"],
+    input[type="password"] {
+        min-height: 2.3em;
+        font-size: 1.1em;
+        padding: 0.1em;
+    }
+    .container {
+        background: rgba(0, 0, 0, 0.6);
+        margin: 0 auto;
+        width: 95%;
+    }
+    .container {
+        margin: 0 auto;
+    }
+    .row.head-em,
+    .container.head-em {
+        background: #a51f15;
+        width: 100%;
+    }
+    div.row.nav {
+        height: 2em;
+    }
+    div.content {
+        margin: 0 auto;
+    }
+    ul.nav {
+        background-color: transparent;
+        background-image: none;
+        width: auto;
+        min-width: 50%;
+        height: 0;
+        margin: 0 auto;
+        top: 0;
+    }
+    ul.nav li {
+        margin: 8px 0.3em;
+        padding: 2px;
+        float: left;
+        text-align: center;
+    }
+    ul.nav:first-child {
+        margin-left: 4em;
+    }
+    ul.nav li a {
+        font-family: sans-serif;
+        position: relative;
+        font-size: 1.5em;
+        top: 50%;
+        margin: 0 0.2em;
+        padding: 2px;
+        color: bisque;
+        text-shadow: none;
+        display: inline;
+    }
+    ul.nav li.logo {
+        display: none;
+    }
+    .logo-sm {
+        display: block;
+        margin: 0 auto;
+        width: 314px;
+    }
+    div.eight.columns.center-column {
+        width: 95%;
+    }
+    div.center-column {
+        width: 95%;
+    }
+    .mobile-stack {
+        width: 100%;
+        display: block;
+    }
+}
+/* Larger than phablet */
+
+@media (min-width: 550px) {
+    ul.nav li.nav {
+        padding: 0;
+        margin: 0 1em;
+    }
+    ul.nav li.nav a {
+        font-size: 1.5em;
+    }
+    .container {
+        width: 95%;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: auto;
+    }
+    input[type="button"],
+    input[type="submit"] {
+      width: auto;
+    }
+    label.full-sm {
+      width: auto;
+    }
+}
+/* Larger than tablet */
+/* Medium             */
+
+@media (min-width: 750px) {
+    ul.nav li.nav {
+        padding: 0;
+        margin: 0 2em;
+    }
+    ul.nav li.nav a {
+        font-size: 1.5em;
+    }
+    input.inline-md {
+        width: 50%;
+    }
+}
+/* Larger than desktop */
+
+@media (min-width: 1000px) {
+    * {} .row.head-em,
+    .container.head-em {
+        background-color: none;
+        background: none;
+    }
+    .container {
+        background-color: rgba(0, 0, 0, 0);
+        background: none;
+    }
+    div.row.nav {
+        height: 250px;
+    }
+    ul.nav {
+        height: 150px;
+        margin: 30px auto;
+        background: transparent url("../images/bg-navigation.png");
+        background-color: none;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0 0 0 2em;
+        height: 120px;
+        position: relative;
+        top: 70px;
+        left: 0;
+    }
+    ul.nav:first-child {
+        margin-left: auto;
+    }
+    ul.nav li.nav {
+        margin: 2px auto;
+        float: left;
+        text-align: center;
+    }
+    ul.nav li.nav:not(.logo) {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    ul.nav li.nav a {
+        font-size: 1.4em;
+    }
+    .logo-sm {
+        display: none;
+    }
+    ul.nav li.logo {
+        display: block;
+    }
+    ul.nav li.logo img {
+        height: 200px;
+        transform: translateY(-70px);
+    }
+    ul.nav li a {
+        color: #000000;
+        font-family: Alegreya;
+        margin: 0;
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: uppercase;
+        padding: 0 20px;
+        text-shadow: 0 1px 0 #e5c288;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    label {
+        font-size: 1.3em;
+    }
+    label.full {
+        width: auto;
+    }
+    input[type="submit"],
+    input[type="button"] {
+        width: auto;
+    }
+    .mobile-stack {
+        width: auto;
+        max-width: 75%;
+    }
+    div.eight.columns.center-column {
+        width: 65.3333333333%;
+    }
+}
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {}
